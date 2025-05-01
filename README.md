@@ -168,6 +168,6 @@ https://imgur.com/vr25v3j
 https://imgur.com/Jc4v0oG
 
 
-5. A variable is a placeholder, often represented by a symbol like "x" or "y", that can take on different values or represent a quantity that can change.
+<!-- 5. A variable is a placeholder, often represented by a symbol like "x" or "y", that can take on different values or represent a quantity that can change.
 Declaring a variable and calling the variable using the $ sign at the front. echo is used to print on the shell terminal.
-https://imgur.com/Sb56Xhm
+https://imgur.com/Sb56Xhm -->
