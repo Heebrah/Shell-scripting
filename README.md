@@ -132,34 +132,42 @@ chown username:groupname file.txt
 ---
 ## My Simple task on Shell Scripting
 
-- creating a folder name shell-script
+1. creating a folder name shell-script
 https://imgur.com/8nQzJec
-- creating a file name my_first_shell_script.sh with vim
+
+2. creating a file name my_first_shell_script.sh with vim, 
 https://imgur.com/SDcaJ8k
 
-- by using vim we get to write into the file created. where mkdir is used to make a new folder and sudo adduser is used to add a new user
+3. we get to write into the file. Anaylsing the code: mkdir is used to make a new folder and sudo adduser is used to add a new user
 https://imgur.com/MnTtPCg
 
-- press key i to allow insert into the file and key esc when done then press :wq to save and exit
+
+4. press key esc when done then press :wq to save and exit
 https://imgur.com/iO7a9zU
 
-- listing the files details inside a directory we will us ls -latr *l - list the files* *a - show hidden files* *t - modified time of the files* *r - reverse the order of the list*
+5. cd into the folder shell-script
+https://imgur.com/r0QPjWy
+
+6. listing the files details inside a directory we will us ls -latr *l - list the files* *a - show hidden files* *t - modified time of the files* *r - reverse the order of the list*
 
 https://imgur.com/9NTMui2
 
-- to run the script you will enter ./ infront of the file that is ./my_first_shell_script.sh then enter. This will give you a permission error to run  
+## Running the file
+
+ to run the script you will enter ./ infront of the file that is ./my_first_shell_script.sh then enter. This will give you a permission error to run  
 https://imgur.com/QBwVF7q
 
-- You can make the file executable by adding the command chmod +x as this ```chmod +x ./my_first_shell_script.sh```
-
-- created 3 folders from the shell file
+1. You can make the file executable by adding the command chmod +x as this ```chmod +x ./my_first_shell_script.sh```
+2. then you can run the script now it will work
+https://imgur.com/ak1ia4j
+3. From the shell file run we are able to created 3 folders
 
 https://imgur.com/vr25v3j
 
-- creation of 3 users using sudo adduser
+4. We are able to see 3 users created- user1 user2 user3
 https://imgur.com/Jc4v0oG
 
 
-- A variable is a placeholder, often represented by a symbol like "x" or "y", that can take on different values or represent a quantity that can change.
+5. A variable is a placeholder, often represented by a symbol like "x" or "y", that can take on different values or represent a quantity that can change.
 Declaring a variable and calling the variable using the $ sign at the front. echo is used to print on the shell terminal.
 https://imgur.com/Sb56Xhm
