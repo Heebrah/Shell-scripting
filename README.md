@@ -1,10 +1,5 @@
 # Shell-scripting
-**Shell scripting** is the practice of writing a series of commands in a text file (called a *script*) to be executed by the **shell**, which is the command-line interpreter in Unix/Linux systems (like `bash`, `zsh`, etc.).
-
----
-
-### 🔧 What is a Shell?
-
+*
 A **shell** is a program that lets you interact with the operating system via commands. Common shells include:
 
 - `bash` (Bourne Again SHell) — default in most Linux distros
@@ -136,34 +131,34 @@ chown username:groupname file.txt
 
 ---
 ## My Simple task on Shell Scripting
-- creating a file name my_first_shell_script.sh with vim
-https://imgur.com/aOQPPsG &
-https://imgur.com/zGEpMyQ
 
-- content of the files my_first_shell_script.sh: 
-https://imgur.com/THSmwlj
+- creating a folder name shell-script
+https://imgur.com/8nQzJec
+- creating a file name my_first_shell_script.sh with vim
+https://imgur.com/SDcaJ8k
+
+- by using vim we get to write into the file created. where mkdir is used to make a new folder and sudo adduser is used to add a new user
+https://imgur.com/MnTtPCg
 
 - press key i to allow insert into the file and key esc when done then press :wq to save and exit
+https://imgur.com/iO7a9zU
 
 - listing the files details inside a directory we will us ls -latr *l - list the files* *a - show hidden files* *t - modified time of the files* *r - reverse the order of the list*
 
-https://imgur.com/jJAVslB
+https://imgur.com/9NTMui2
 
 - to run the script you will enter ./ infront of the file that is ./my_first_shell_script.sh then enter. This will give you a permission error to run  
 https://imgur.com/QBwVF7q
 
 - You can make the file executable by adding the command chmod +x as this ```chmod +x ./my_first_shell_script.sh```
 
-- creating of 3 folders using mkdir command
+- created 3 folders from the shell file
 
-https://imgur.com/N0TZw3n
+https://imgur.com/vr25v3j
 
 - creation of 3 users using sudo adduser
-https://imgur.com/kWLUpEN 
- & https://imgur.com/CxCpuLC
+https://imgur.com/Jc4v0oG
 
-- verifying the user created we use id user(number)
-https://imgur.com/OjvmQgg
 
 - A variable is a placeholder, often represented by a symbol like "x" or "y", that can take on different values or represent a quantity that can change.
 Declaring a variable and calling the variable using the $ sign at the front. echo is used to print on the shell terminal.
