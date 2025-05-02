@@ -215,41 +215,47 @@ The **shebang** is essential in directing how a script is interpreted and execut
 ---
 ## My Simple task on Shell Scripting
 
-1. creating a folder name shell-script
+1. creating a folder name shell-script. Shell file is created using. Folders are created using the Mkdir command then the folder name you want. like ``Mkdir shell-script``
 https://imgur.com/8nQzJec
 
-2. creating a file name my_first_shell_script.sh with vim, 
+2. creating a file name my_first_shell_script.sh with vim, shell file is created using .sh and also we write the shebang at the top of the file this helps the system identify what type of program we running. as for shell script it uses 
+``
+#!/bin/bash
+``
 https://imgur.com/SDcaJ8k
 
 3. we get to write into the file. Anaylsing the code: mkdir is used to make a new folder and sudo adduser is used to add a new user
 https://imgur.com/MnTtPCg
 
 
-4. press key esc when done then press :wq to save and exit
+4. press key esc when done then press. This takes makes us unable to write into the file again then click :wq to save and exit
 https://imgur.com/iO7a9zU
 
 5. cd into the folder shell-script
 https://imgur.com/r0QPjWy
 
 6. listing the files details inside a directory we will us ls -latr *l - list the files* *a - show hidden files* *t - modified time of the files* *r - reverse the order of the list*
-
 https://imgur.com/9NTMui2
 
 ## Running the file
 
- to run the script you will enter ./ infront of the file that is ./my_first_shell_script.sh then enter. This will give you a permission error to run  
+ to run the script you will enter ./ infront of the file that is ./my_first_shell_script.sh then enter. This will give you a permission error to run. This because the file is not giving an execution permission the permission gotten is just read and write 
 https://imgur.com/QBwVF7q
 
 1. You can make the file executable by adding the command chmod +x as this ```chmod +x ./my_first_shell_script.sh```
 2. then you can run the script now it will work
 https://imgur.com/ak1ia4j
-3. From the shell file run we are able to created 3 folders. Folder1 Folder2 and Folder3
+3. From the shell file run we are able to created 3 folders. Folder1 Folder2 and Folder3. The command mkdir allows folder to be created. e.g ``mkdir Folder1``
+https://imgur.com/3Tfk950
 
-https://imgur.com/vr25v3j
+4. We are able to see 3 users created- user1 user2 user3. command id and username will makes us see if there's the user name create. e.g ``id user1``
+- user1 https://imgur.com/vUkGMCW
+- user2 https://imgur.com/9qngXKQ
+- user3 https://imgur.com/mWJcOAZ
 
-4. We are able to see 3 users created- user1 user2 user3
-https://imgur.com/Jc4v0oG
+5. To validate the Shell file work I rerun the shell file then I got an error that the Folders and user are already existing so there no need to run the program again. except changing the names of the Folders and users then it will created another one.
+https://imgur.com/2wOBwwC
 
 ## Project value
 
-The function of the script is to easily create a file without having to be writing a command and also create users. The code can be edited to sooth our preference. This enhance fast and efficient method of our work to be automated and fast as a DevOps or system administrator.
+The function of the script is to easily create a file without having to be writing a command and also create users. The code can be edited to sooth our preference. This enhance fast and efficient method of our work to be automated and fast as a DevOps or system administrator. You can also write this script and send it to another user if you need to help them work on their system so instead of telling them what to enter or name to input you can just write the script and send it to them.
